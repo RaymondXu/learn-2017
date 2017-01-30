@@ -49,8 +49,12 @@
     width: 80%;
 
     p {
-      font-size: 1.1rem;
+      font-size: 1.3rem;
       line-height: 1.618;
+    }
+
+    .schedule-link {
+      @include link-underline(darken($light-gray, 15%), $green, darken($light-gray, 30%));
     }
   }
 }
@@ -85,9 +89,9 @@ h4 {
     a {
       @include link-underline(darken($light-gray, 15%), $green, darken($light-gray, 30%));
 
-      font-size: 1.25rem;
+      font-size: 1.5rem;
       line-height: 1.8;
-      margin-left: 3rem;
+      margin-left: 4rem;
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
@@ -96,7 +100,7 @@ h4 {
 
   p {
     font-size: 1rem;
-    margin-left: 3rem;
+    margin-left: 4rem;
   }
 
 }
